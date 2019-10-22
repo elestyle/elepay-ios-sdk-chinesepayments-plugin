@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.swift_version = '5.1'
 
-  s.source       = { :git => "https://github.com/elestyle/elepay-ios-sdk.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xuzhe/elepay-ios-sdk-chinesepayments-plugin.git", :tag => "#{s.version}" }
 
   s.vendored_frameworks = "ElePay_ChinesePayments_Plugin.framework"
 
