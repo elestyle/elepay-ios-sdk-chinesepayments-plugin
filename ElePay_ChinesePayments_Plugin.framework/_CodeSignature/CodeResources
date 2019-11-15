@@ -58,47 +58,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OxQUucSLC0nISY2tTvu5/1EOtpo=
+		pp0FixyO2cTB/4ot4ZCHgId48y0=
 		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftdoc</key>
 		<data>
 		jrp5sTWOxIh4JmFc6HjQsWb61yI=
 		</data>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftinterface</key>
+		<data>
+		elqF7opbuj1ldfGS3zmn6Dyowqk=
+		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftmodule</key>
 		<data>
-		ZguMIiQ90lzhjw0cJbKo+g7yarA=
+		xwZVomodug4EmS4NG+sHLxPZ+qg=
 		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		9r/8gxoskXmLgAJiAbCOTpkLdfE=
 		</data>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		VFZEhmVmcNReSyJtbtKIlhdAZKA=
+		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nOohc4TJ8EvrzHbjyPWMyRgy57k=
+		RPu2/6SLJQbo1wmu9D1WpIbU4Q4=
 		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftdoc</key>
 		<data>
 		9r/8gxoskXmLgAJiAbCOTpkLdfE=
 		</data>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		VFZEhmVmcNReSyJtbtKIlhdAZKA=
+		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		nOohc4TJ8EvrzHbjyPWMyRgy57k=
+		RPu2/6SLJQbo1wmu9D1WpIbU4Q4=
 		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
 		jrp5sTWOxIh4JmFc6HjQsWb61yI=
 		</data>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftinterface</key>
+		<data>
+		elqF7opbuj1ldfGS3zmn6Dyowqk=
+		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		ZguMIiQ90lzhjw0cJbKo+g7yarA=
+		xwZVomodug4EmS4NG+sHLxPZ+qg=
 		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftdoc</key>
 		<data>
 		jrp5sTWOxIh4JmFc6HjQsWb61yI=
 		</data>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftinterface</key>
+		<data>
+		elqF7opbuj1ldfGS3zmn6Dyowqk=
+		</data>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		ZguMIiQ90lzhjw0cJbKo+g7yarA=
+		xwZVomodug4EmS4NG+sHLxPZ+qg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -261,15 +281,26 @@
 			oO2GGhhyFflt7g50JEEnftIq/TWrtplS2Cdxd0yV1NE=
 			</data>
 		</dict>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			elqF7opbuj1ldfGS3zmn6Dyowqk=
+			</data>
+			<key>hash2</key>
+			<data>
+			R3YcuUhoQ54IeCqqQm41fQDQxMO53wFCuA0PfHebOaM=
+			</data>
+		</dict>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZguMIiQ90lzhjw0cJbKo+g7yarA=
+			xwZVomodug4EmS4NG+sHLxPZ+qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			M2BFa52EXE7bZszenICCasyoYbtczl5J84BuvAfq30Y=
+			JfJNGzxWjXsJFVy0Q0NJfLpmTjkR1ZoeAia/DD41oso=
 			</data>
 		</dict>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -283,15 +314,26 @@
 			OWBZUG0aFV5cWzwhxY2uaMO/hu49IrfTaJcdS2ttrbk=
 			</data>
 		</dict>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VFZEhmVmcNReSyJtbtKIlhdAZKA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kycBYZZAbQSWlOUMB3LXNcAdyRPhrKRFXwd+PAkuwSE=
+			</data>
+		</dict>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nOohc4TJ8EvrzHbjyPWMyRgy57k=
+			RPu2/6SLJQbo1wmu9D1WpIbU4Q4=
 			</data>
 			<key>hash2</key>
 			<data>
-			8py7m1rQ5+OCR1my5L4zS6htO4uphM+/W/Ciu1cGiJQ=
+			q/K7emVtj/bNXvHXxGKrSxIo0vTKepRUnCDmDYND41s=
 			</data>
 		</dict>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftdoc</key>
@@ -305,15 +347,26 @@
 			OWBZUG0aFV5cWzwhxY2uaMO/hu49IrfTaJcdS2ttrbk=
 			</data>
 		</dict>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VFZEhmVmcNReSyJtbtKIlhdAZKA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kycBYZZAbQSWlOUMB3LXNcAdyRPhrKRFXwd+PAkuwSE=
+			</data>
+		</dict>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nOohc4TJ8EvrzHbjyPWMyRgy57k=
+			RPu2/6SLJQbo1wmu9D1WpIbU4Q4=
 			</data>
 			<key>hash2</key>
 			<data>
-			8py7m1rQ5+OCR1my5L4zS6htO4uphM+/W/Ciu1cGiJQ=
+			q/K7emVtj/bNXvHXxGKrSxIo0vTKepRUnCDmDYND41s=
 			</data>
 		</dict>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -327,15 +380,26 @@
 			oO2GGhhyFflt7g50JEEnftIq/TWrtplS2Cdxd0yV1NE=
 			</data>
 		</dict>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			elqF7opbuj1ldfGS3zmn6Dyowqk=
+			</data>
+			<key>hash2</key>
+			<data>
+			R3YcuUhoQ54IeCqqQm41fQDQxMO53wFCuA0PfHebOaM=
+			</data>
+		</dict>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZguMIiQ90lzhjw0cJbKo+g7yarA=
+			xwZVomodug4EmS4NG+sHLxPZ+qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			M2BFa52EXE7bZszenICCasyoYbtczl5J84BuvAfq30Y=
+			JfJNGzxWjXsJFVy0Q0NJfLpmTjkR1ZoeAia/DD41oso=
 			</data>
 		</dict>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftdoc</key>
@@ -349,15 +413,26 @@
 			oO2GGhhyFflt7g50JEEnftIq/TWrtplS2Cdxd0yV1NE=
 			</data>
 		</dict>
+		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			elqF7opbuj1ldfGS3zmn6Dyowqk=
+			</data>
+			<key>hash2</key>
+			<data>
+			R3YcuUhoQ54IeCqqQm41fQDQxMO53wFCuA0PfHebOaM=
+			</data>
+		</dict>
 		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZguMIiQ90lzhjw0cJbKo+g7yarA=
+			xwZVomodug4EmS4NG+sHLxPZ+qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			M2BFa52EXE7bZszenICCasyoYbtczl5J84BuvAfq30Y=
+			JfJNGzxWjXsJFVy0Q0NJfLpmTjkR1ZoeAia/DD41oso=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

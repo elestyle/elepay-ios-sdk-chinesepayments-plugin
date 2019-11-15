@@ -1,0 +1,36 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ElePay_ChinesePayments_Plugin
+@_exported import ElePay_ChinesePayments_Plugin
+import Swift
+import UIKit
+@objc final public class ElepayWechatSDK : ObjectiveC.NSObject {
+  @objc public static var isWeChatInstalled: Swift.Bool {
+    @objc get
+  }
+  @objc public static var isWeChatSupport: Swift.Bool {
+    @objc get
+  }
+  @objc public static var weChatInstallUrl: Swift.String {
+    @objc get
+  }
+  @objc public static var ver: Swift.String {
+    @objc get
+  }
+  @discardableResult
+  @objc public static func registerApp(_ appID: Swift.String) -> Swift.Bool
+  @discardableResult
+  @objc public static func registerApp(_ appID: Swift.String, enableMTA isEnableMTA: Swift.Bool) -> Swift.Bool
+  @objc public static func registerAppSupportContentFlag(_ typeFlag: Swift.UInt64)
+  @discardableResult
+  @objc public static func openWeChat() -> Swift.Bool
+  @objc public static func handleOpen(_ url: Foundation.URL, delegate: ElePay_ChinesePayments_Plugin.WXApiDelegate) -> Swift.Bool
+  @discardableResult
+  @objc public static func sendReq(_ req: ElePay_ChinesePayments_Plugin.BaseReq) -> Swift.Bool
+  @discardableResult
+  @objc public static func sendAuthReq(_ req: ElePay_ChinesePayments_Plugin.SendAuthReq, viewController: UIKit.UIViewController, delegate: ElePay_ChinesePayments_Plugin.WXApiDelegate) -> Swift.Bool
+  @discardableResult
+  @objc public static func sendResp(_ resp: ElePay_ChinesePayments_Plugin.BaseResp) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
