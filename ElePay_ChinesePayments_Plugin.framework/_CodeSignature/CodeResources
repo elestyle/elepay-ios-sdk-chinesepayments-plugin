@@ -36,21 +36,21 @@
 		<data>
 		H4YDA0QxpnqJ70YNlZHLupVedUM=
 		</data>
-		<key>Headers/ElePay_ChinesePayments_Plugin-Swift.h</key>
+		<key>Headers/ElePayWXPayModule.h</key>
 		<data>
-		SZH/hH4tHyUc+q3nSLnnV7F8cd8=
+		VmDQCuEYLG48QcrXZfxQnOiFd5c=
 		</data>
 		<key>Headers/ElePay_ChinesePayments_Plugin.h</key>
 		<data>
-		OON26NfwreGZrgtbxQvuhMVJwC8=
+		aXPgHRZHaXiAJ32FMtUxmP5RVYU=
 		</data>
 		<key>Headers/WXApi.h</key>
 		<data>
-		c+wn4AW+S9cLPG1sK9wLHQphlPQ=
+		KU9N8v0tkEt73YKPX5By08oybdg=
 		</data>
 		<key>Headers/WXApiObject.h</key>
 		<data>
-		hqbBTmzihiI2vS6Rk29xiX8uWek=
+		n1CBQkB//auDee0ebZI/36WNMV8=
 		</data>
 		<key>Headers/WechatAuthSDK.h</key>
 		<data>
@@ -58,71 +58,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pp0FixyO2cTB/4ot4ZCHgId48y0=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftdoc</key>
-		<data>
-		jrp5sTWOxIh4JmFc6HjQsWb61yI=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftinterface</key>
-		<data>
-		elqF7opbuj1ldfGS3zmn6Dyowqk=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftmodule</key>
-		<data>
-		xwZVomodug4EmS4NG+sHLxPZ+qg=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		9r/8gxoskXmLgAJiAbCOTpkLdfE=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		VFZEhmVmcNReSyJtbtKIlhdAZKA=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		RPu2/6SLJQbo1wmu9D1WpIbU4Q4=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		9r/8gxoskXmLgAJiAbCOTpkLdfE=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		VFZEhmVmcNReSyJtbtKIlhdAZKA=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		RPu2/6SLJQbo1wmu9D1WpIbU4Q4=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<data>
-		jrp5sTWOxIh4JmFc6HjQsWb61yI=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<data>
-		elqF7opbuj1ldfGS3zmn6Dyowqk=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<data>
-		xwZVomodug4EmS4NG+sHLxPZ+qg=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftdoc</key>
-		<data>
-		jrp5sTWOxIh4JmFc6HjQsWb61yI=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftinterface</key>
-		<data>
-		elqF7opbuj1ldfGS3zmn6Dyowqk=
-		</data>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftmodule</key>
-		<data>
-		xwZVomodug4EmS4NG+sHLxPZ+qg=
+		dIK8r/YTIKVy7RQd5dAQy8Hlcbo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		DuMl96fqZTcOCAGdNbE0KT8ielk=
+		7I3e4SmloBg+jxUpYcb3D8S0ONA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -215,48 +155,48 @@
 			gvpxfBVmvmVezFN30dE14lpNWCqRJxtoMbwbn0TzEjA=
 			</data>
 		</dict>
-		<key>Headers/ElePay_ChinesePayments_Plugin-Swift.h</key>
+		<key>Headers/ElePayWXPayModule.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SZH/hH4tHyUc+q3nSLnnV7F8cd8=
+			VmDQCuEYLG48QcrXZfxQnOiFd5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			hslUI3xAA9o8eGBTHcPVlKnwRm4XePtBwDJyMDMdxEU=
+			e8+syCu2/+lkEKE78h9DNPLJBLHEhKfQtXuwmNEW+XI=
 			</data>
 		</dict>
 		<key>Headers/ElePay_ChinesePayments_Plugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OON26NfwreGZrgtbxQvuhMVJwC8=
+			aXPgHRZHaXiAJ32FMtUxmP5RVYU=
 			</data>
 			<key>hash2</key>
 			<data>
-			glWMeRxVbe9Rl7brNQO4ZvX8uiR2/vX0M2fg7UF7CME=
+			8YSADaFIOwVv2yz9yvVq2Rp38N6unFm6G9xr/MQ3PNg=
 			</data>
 		</dict>
 		<key>Headers/WXApi.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c+wn4AW+S9cLPG1sK9wLHQphlPQ=
+			KU9N8v0tkEt73YKPX5By08oybdg=
 			</data>
 			<key>hash2</key>
 			<data>
-			FMHKUCf9ZPGh/GEdwurcn2S6XCmsZa649u/33/QBmgM=
+			7HvcGPUV+Jk/nf4wJ4fKdM5hy+lwkuna5J/oKKL5p7Y=
 			</data>
 		</dict>
 		<key>Headers/WXApiObject.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hqbBTmzihiI2vS6Rk29xiX8uWek=
+			n1CBQkB//auDee0ebZI/36WNMV8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nM/BbBwq4ak5AM9uhBrCCVK6/q8C9eRAUnMcXcfyhqY=
+			DF1qr8spy1g2UKtyBGrkfvkiqpBqUBe7HTwK6i7Qzac=
 			</data>
 		</dict>
 		<key>Headers/WechatAuthSDK.h</key>
@@ -270,180 +210,15 @@
 			M0spJeYbHCMSW6oxG/EeRlMWVoLAJRqciOHRsYHyPl4=
 			</data>
 		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jrp5sTWOxIh4JmFc6HjQsWb61yI=
-			</data>
-			<key>hash2</key>
-			<data>
-			oO2GGhhyFflt7g50JEEnftIq/TWrtplS2Cdxd0yV1NE=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			elqF7opbuj1ldfGS3zmn6Dyowqk=
-			</data>
-			<key>hash2</key>
-			<data>
-			R3YcuUhoQ54IeCqqQm41fQDQxMO53wFCuA0PfHebOaM=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xwZVomodug4EmS4NG+sHLxPZ+qg=
-			</data>
-			<key>hash2</key>
-			<data>
-			JfJNGzxWjXsJFVy0Q0NJfLpmTjkR1ZoeAia/DD41oso=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9r/8gxoskXmLgAJiAbCOTpkLdfE=
-			</data>
-			<key>hash2</key>
-			<data>
-			OWBZUG0aFV5cWzwhxY2uaMO/hu49IrfTaJcdS2ttrbk=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VFZEhmVmcNReSyJtbtKIlhdAZKA=
-			</data>
-			<key>hash2</key>
-			<data>
-			kycBYZZAbQSWlOUMB3LXNcAdyRPhrKRFXwd+PAkuwSE=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RPu2/6SLJQbo1wmu9D1WpIbU4Q4=
-			</data>
-			<key>hash2</key>
-			<data>
-			q/K7emVtj/bNXvHXxGKrSxIo0vTKepRUnCDmDYND41s=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9r/8gxoskXmLgAJiAbCOTpkLdfE=
-			</data>
-			<key>hash2</key>
-			<data>
-			OWBZUG0aFV5cWzwhxY2uaMO/hu49IrfTaJcdS2ttrbk=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VFZEhmVmcNReSyJtbtKIlhdAZKA=
-			</data>
-			<key>hash2</key>
-			<data>
-			kycBYZZAbQSWlOUMB3LXNcAdyRPhrKRFXwd+PAkuwSE=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RPu2/6SLJQbo1wmu9D1WpIbU4Q4=
-			</data>
-			<key>hash2</key>
-			<data>
-			q/K7emVtj/bNXvHXxGKrSxIo0vTKepRUnCDmDYND41s=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jrp5sTWOxIh4JmFc6HjQsWb61yI=
-			</data>
-			<key>hash2</key>
-			<data>
-			oO2GGhhyFflt7g50JEEnftIq/TWrtplS2Cdxd0yV1NE=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			elqF7opbuj1ldfGS3zmn6Dyowqk=
-			</data>
-			<key>hash2</key>
-			<data>
-			R3YcuUhoQ54IeCqqQm41fQDQxMO53wFCuA0PfHebOaM=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xwZVomodug4EmS4NG+sHLxPZ+qg=
-			</data>
-			<key>hash2</key>
-			<data>
-			JfJNGzxWjXsJFVy0Q0NJfLpmTjkR1ZoeAia/DD41oso=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jrp5sTWOxIh4JmFc6HjQsWb61yI=
-			</data>
-			<key>hash2</key>
-			<data>
-			oO2GGhhyFflt7g50JEEnftIq/TWrtplS2Cdxd0yV1NE=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			elqF7opbuj1ldfGS3zmn6Dyowqk=
-			</data>
-			<key>hash2</key>
-			<data>
-			R3YcuUhoQ54IeCqqQm41fQDQxMO53wFCuA0PfHebOaM=
-			</data>
-		</dict>
-		<key>Modules/ElePay_ChinesePayments_Plugin.swiftmodule/armv7.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xwZVomodug4EmS4NG+sHLxPZ+qg=
-			</data>
-			<key>hash2</key>
-			<data>
-			JfJNGzxWjXsJFVy0Q0NJfLpmTjkR1ZoeAia/DD41oso=
-			</data>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DuMl96fqZTcOCAGdNbE0KT8ielk=
+			7I3e4SmloBg+jxUpYcb3D8S0ONA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7/DfrXEVibzGCCv9R208z6U8G9pDyqYXIM1S+vsNMOo=
+			r3U5We75waw/nG0yKMVeSWgwmGBqkeFgbMT6NCHnDeo=
 			</data>
 		</dict>
 	</dict>
