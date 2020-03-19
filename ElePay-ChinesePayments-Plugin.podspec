@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ElePay-ChinesePayments-Plugin"
-  s.version      = "1.1.3"
+  s.version      = "1.1.4-alpha.1"
   s.summary      = "This is a plugin framework working with elepay iOS SDK."
   s.description  = <<-DESC
                     ElePay Chinese Payments Plugin is a plugin framework working with elepay iOS SDK.

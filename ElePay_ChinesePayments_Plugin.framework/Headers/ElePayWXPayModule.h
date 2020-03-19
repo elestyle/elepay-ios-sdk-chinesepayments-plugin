@@ -24,7 +24,7 @@ enum  ElePayWXErrCode: NSInteger {
 + (instancetype)shared;
 
 + (BOOL)isWXAppInstalled;
-+ (BOOL)isWXAppSupportApi;
++ (BOOL)isWXAppSupportAPI;
 
 + (BOOL)registerWXApp:(NSString *)appid universalLink:(NSString *)universalLink;
 + (BOOL)handleWXOpenURL:(NSURL *)url;
