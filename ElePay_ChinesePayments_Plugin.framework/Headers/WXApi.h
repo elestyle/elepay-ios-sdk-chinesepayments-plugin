@@ -48,6 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+
 #pragma mark - WXApi
 
 /*! @brief 微信Api接口函数类
@@ -157,27 +158,41 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)sendAuthReq:(SendAuthReq *)req viewController:(UIViewController*)viewController delegate:(nullable id<WXApiDelegate>)delegate completion:(void (^ __nullable)(BOOL success))completion;
 
 
+/*! @brief 测试函数，用于排查当前App通过Universal Link方式分享到微信的流程
+    注意1:  调用自检函数之前必须要先调用registerApp:universalLink接口, 并确认调用成功
+    注意2:  自检过程中会有Log产生，可以先调用startLogByLevel函数，根据Log排查问题
+    注意3:  会多次回调block
+    注意4:  仅用于新接入SDK时调试使用，请勿在正式环境的调用
+ *
+ *  当completion回调的step为WXULCheckStepFinal时，表示检测通过，Universal Link接入成功
+ *  @param completion 回调Block
+ */
++ (void)checkUniversalLinkReady:(nonnull WXCheckULCompletion)completion;
+
+
 /*! @brief WXApi的成员函数，接受微信的log信息。byBlock
- 注意1:SDK会强引用这个block,注意不要导致内存泄漏,注意不要导致内存泄漏
- 注意2:调用过一次startLog by block之后，如果再调用一次任意方式的startLoad,会释放上一次logBlock，不再回调上一个logBlock
+    注意1:SDK会强引用这个block,注意不要导致内存泄漏,注意不要导致内存泄漏
+    注意2:调用过一次startLog by block之后，如果再调用一次任意方式的startLoad,会释放上一次logBlock，不再回调上一个logBlock
  *
  *  @param level 打印log的级别
  *  @param logBlock 打印log的回调block
  */
+
 + (void)startLogByLevel:(WXLogLevel)level logBlock:(WXLogBolock)logBlock;
 
-/*! @brief WXApi的成员函数，接受微信的log信息。byDelegate
- 注意1:sdk会弱引用这个delegate，这里可加任意对象为代理，不需要与WXApiDelegate同一个对象
- 注意2:调用过一次startLog by delegate之后，再调用一次任意方式的startLoad,不会再回调上一个logDelegate对象
+/*! @brief WXApi的成员函数，接受微信的log信息。byDelegate 
+    注意1:sdk会弱引用这个delegate，这里可加任意对象为代理，不需要与WXApiDelegate同一个对象
+    注意2:调用过一次startLog by delegate之后，再调用一次任意方式的startLoad,不会再回调上一个logDelegate对象
  *  @param level 打印log的级别
  *  @param logDelegate 打印log的回调代理，
  */
 + (void)startLogByLevel:(WXLogLevel)level logDelegate:(id<WXApiLogDelegate>)logDelegate;
 
 /*! @brief 停止打印log，会清理block或者delegate为空，释放block
- *  @param
+ *  @param 
  */
 + (void)stopLog;
+
 @end
 
 NS_ASSUME_NONNULL_END
