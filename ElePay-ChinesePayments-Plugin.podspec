@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "ElePay-ChinesePayments-Plugin"
-  s.version      = "1.1.5"
-  s.summary      = "This is a plugin framework working with elepay iOS SDK."
+  s.version      = "1.1.6"
+  s.summary      = "Deprecated: This Pod ElePay-ChinesePayments-Plugin will be deprecated from v2.0.0. Please use Elepay-ChinesePayments-Plugin instead."
   s.description  = <<-DESC
                     ElePay Chinese Payments Plugin is a plugin framework working with elepay iOS SDK.
                     This framework dose NOT work by itself but need to be installed with `pod 'ElePay'` together.
@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/elestyle/elepay-ios-sdk-chinesepayments-plugin.git", :tag => "#{s.version}" }
 
   s.vendored_frameworks = "ElePay_ChinesePayments_Plugin.framework"
+
+  s.deprecated_in_favor_of = 'Elepay-ChinesePayments-Plugin'
 
   s.requires_arc = true
 end
