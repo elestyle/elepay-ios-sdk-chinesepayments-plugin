@@ -23,8 +23,9 @@ elepay iOS SDK のサンプルは[こちら](https://github.com/elestyle/elepay-
 * v1.1.1 以降のバージョンは「Build for Distribution」でコンパイルしますので、Swift のバージョンを気にしなくてご利用できます。  
 * v2.0.0 から、XCFramework の導入に伴う、Framework 名が変更しました。  
     ```ElePay-ChinesePayments-Plugin.framework → Elepay-ChinesePayments-Plugin.xcframework```
-* v2.0.1 は、UnionPay の SDK をアップデートしました。Google Play 及び App Store の最新ポリシーに適応しました。  
-
+* v2.0.1 は、UnionPay の SDK をアップデートしました。Google Play 及び App Store の最新ポリシーに適応しました。更新をおすすめします！  
+* v2.0.2 は SPM (Swift Package Manager) にサポートしました。ご注意：このバージョンは Cocoapods にリリースしていませんので、Cocoapods ご利用の場合は v2.0.1 を利用してください。  
+  
 ## English
 
 elepay iOS SDK Chinese Payments Plugin is made for your iOS Apps to easily import elepay's Chinese Payments. For more details, please access the link below.  
@@ -48,5 +49,5 @@ You can download the usage sample for **elepay iOS SDK** from [here](https://git
 * From v2.0, the SDK is distributed in XCFramework format.  
   Also the Framework name has been changed.  
     ```ElePay-ChinesePayments-Plugin.framework → Elepay-ChinesePayments-Plugin.xcframework```  
-* v2.0.1 Updated Union Pay SDK to fully complies with current Apple/iOS and Google/Android policy.  
-  
+* v2.0.1 Updated Union Pay SDK to fully complies with current Apple/iOS and Google/Android policy. UPDATE RECOMMENDED!  
+* v2.0.2 add SPM (Swift Package Manager) support. NOTE: This version will not be released to Cocoapods, use v2.0.1 instead.  
