@@ -13,6 +13,7 @@
 #import "WechatAuthSDK.h"
 #import "AllPaySDK.h"
 #import "ElepayWXPayModule.h"
+#import "UPPaymentControl.h"
 
 #import "AlipaySDK.h"
 
