@@ -1,0 +1,589 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Elepay_ChinesePayments_Plugin",
+    "printedName": "Elepay_ChinesePayments_Plugin",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Elepay_ChinesePayments_Plugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ElepayUnionPayModule",
+        "printedName": "ElepayUnionPayModule",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "startUPP",
+            "printedName": "startUPP(tn:scheme:mode:viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayUnionPayModule(cm)startUPPWithTn:scheme:mode:viewController:",
+            "mangledName": "$s29Elepay_ChinesePayments_Plugin0A14UnionPayModuleC8startUPP2tn6scheme4mode14viewControllerSbSS_S2SSo06UIViewN0CtFZ",
+            "moduleName": "Elepay_ChinesePayments_Plugin",
+            "static": true,
+            "objc_name": "startUPPWithTn:scheme:mode:viewController:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isUnionPayAppInstalled",
+            "printedName": "isUnionPayAppInstalled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayUnionPayModule(cm)isUnionPayAppInstalled",
+            "mangledName": "$s29Elepay_ChinesePayments_Plugin0A14UnionPayModuleC02iseF12AppInstalledSbyFZ",
+            "moduleName": "Elepay_ChinesePayments_Plugin",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleUPOpenURL",
+            "printedName": "handleUPOpenURL(url:completionBlock:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayUnionPayModule(cm)handleUPOpenURLWithUrl:completionBlock:",
+            "mangledName": "$s29Elepay_ChinesePayments_Plugin0A14UnionPayModuleC15handleUPOpenURL3url15completionBlocky10Foundation0J0V_ySSctFZ",
+            "moduleName": "Elepay_ChinesePayments_Plugin",
+            "static": true,
+            "objc_name": "handleUPOpenURLWithUrl:completionBlock:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ElepayUnionPayModule",
+                "printedName": "Elepay_ChinesePayments_Plugin.ElepayUnionPayModule",
+                "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayUnionPayModule"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayUnionPayModule(im)init",
+            "mangledName": "$s29Elepay_ChinesePayments_Plugin0A14UnionPayModuleCACycfc",
+            "moduleName": "Elepay_ChinesePayments_Plugin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayUnionPayModule",
+        "mangledName": "$s29Elepay_ChinesePayments_Plugin0A14UnionPayModuleC",
+        "moduleName": "Elepay_ChinesePayments_Plugin",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Elepay_ChinesePayments_Plugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ElepayAlipayModule",
+        "printedName": "ElepayAlipayModule",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "processOrder",
+            "printedName": "processOrder(withPaymentResult:standbyCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.AnyHashable : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.AnyHashable : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.AnyHashable : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyHashable",
+                            "printedName": "Swift.AnyHashable",
+                            "usr": "s:s11AnyHashableV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayAlipayModule(cm)processOrderWithPaymentResult:standbyCallback:",
+            "mangledName": "$s29Elepay_ChinesePayments_Plugin0A12AlipayModuleC12processOrder17withPaymentResult15standbyCallbacky10Foundation3URLV_ySDys11AnyHashableVypGSgctFZ",
+            "moduleName": "Elepay_ChinesePayments_Plugin",
+            "static": true,
+            "objc_name": "processOrderWithPaymentResult:standbyCallback:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processAuth_V2Result",
+            "printedName": "processAuth_V2Result(resultUrl:standbyCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.AnyHashable : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.AnyHashable : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.AnyHashable : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyHashable",
+                            "printedName": "Swift.AnyHashable",
+                            "usr": "s:s11AnyHashableV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayAlipayModule(cm)processAuth_V2ResultWithResultUrl:standbyCallback:",
+            "mangledName": "$s29Elepay_ChinesePayments_Plugin0A12AlipayModuleC20processAuth_V2Result9resultUrl15standbyCallbacky10Foundation3URLV_ySDys11AnyHashableVypGSgctFZ",
+            "moduleName": "Elepay_ChinesePayments_Plugin",
+            "static": true,
+            "objc_name": "processAuth_V2ResultWithResultUrl:standbyCallback:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "payOrder",
+            "printedName": "payOrder(payload:fromScheme:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.AnyHashable : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.AnyHashable : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.AnyHashable : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyHashable",
+                            "printedName": "Swift.AnyHashable",
+                            "usr": "s:s11AnyHashableV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayAlipayModule(cm)payOrderWithPayload:fromScheme:callback:",
+            "mangledName": "$s29Elepay_ChinesePayments_Plugin0A12AlipayModuleC8payOrder7payload10fromScheme8callbackySS_SSySDys11AnyHashableVypGSgctFZ",
+            "moduleName": "Elepay_ChinesePayments_Plugin",
+            "static": true,
+            "objc_name": "payOrderWithPayload:fromScheme:callback:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ElepayAlipayModule",
+                "printedName": "Elepay_ChinesePayments_Plugin.ElepayAlipayModule",
+                "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayAlipayModule"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayAlipayModule(im)init",
+            "mangledName": "$s29Elepay_ChinesePayments_Plugin0A12AlipayModuleCACycfc",
+            "moduleName": "Elepay_ChinesePayments_Plugin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Elepay_ChinesePayments_Plugin@objc(cs)ElepayAlipayModule",
+        "mangledName": "$s29Elepay_ChinesePayments_Plugin0A12AlipayModuleC",
+        "moduleName": "Elepay_ChinesePayments_Plugin",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
