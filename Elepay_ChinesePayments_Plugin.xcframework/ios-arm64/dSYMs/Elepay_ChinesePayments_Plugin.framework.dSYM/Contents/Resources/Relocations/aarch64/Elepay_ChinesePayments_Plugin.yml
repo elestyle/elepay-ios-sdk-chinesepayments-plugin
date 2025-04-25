@@ -3,7 +3,7 @@ triple:          'arm64-apple-darwin'
 binary-path:     '/Users/linguofeng/Library/Developer/Xcode/DerivedData/ElepaySDK-dyjcgrccklxgpfevjksxqdhhhobz/Build/Intermediates.noindex/ArchiveIntermediates/Elepay_ChinesePayments_Plugin/InstallationBuildProductsLocation/Library/Frameworks/Elepay_ChinesePayments_Plugin.framework/Elepay_ChinesePayments_Plugin'
 relocations:
   - { offset: 0xB3229, size: 0x8, addend: 0x0, symName: _Elepay_ChinesePayments_PluginVersionString, symObjAddr: 0x0, symBinAddr: 0x121B00, symSize: 0x0 }
-  - { offset: 0xB325E, size: 0x8, addend: 0x0, symName: _Elepay_ChinesePayments_PluginVersionNumber, symObjAddr: 0x58, symBinAddr: 0x121B58, symSize: 0x0 }
+  - { offset: 0xB325E, size: 0x8, addend: 0x0, symName: _Elepay_ChinesePayments_PluginVersionNumber, symObjAddr: 0x60, symBinAddr: 0x121B60, symSize: 0x0 }
   - { offset: 0xB329B, size: 0x8, addend: 0x0, symName: '+[ElepayWXPayModule shared]', symObjAddr: 0x0, symBinAddr: 0x62C8, symSize: 0x40 }
   - { offset: 0xB32A9, size: 0x8, addend: 0x0, symName: '+[ElepayWXPayModule shared]', symObjAddr: 0x0, symBinAddr: 0x62C8, symSize: 0x40 }
   - { offset: 0xB32D3, size: 0x8, addend: 0x0, symName: _shared._sharedModule, symObjAddr: 0x47A8, symBinAddr: 0x1DCB20, symSize: 0x0 }
