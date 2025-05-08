@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Elepay_ChinesePayments_Plugin"
-  s.version      = "2.1.0"
+  s.version      = "2.2.0"
   s.summary      = "This is a plugin framework working with ElepaySDK for iOS."
   s.description  = <<-DESC
                     ElePay Chinese Payments Plugin is a plugin framework working with elepay iOS SDK.
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author             = { "ELESTYLE, Inc." => "info@elestyle.jp" }
 
   s.platform     = :ios, "11.0"
-  s.swift_versions = ['5.4']
+  s.swift_versions = ['6.0']
 
   s.source       = { :git => "https://github.com/elestyle/elepay-ios-sdk-chinesepayments-plugin.git", :tag => "#{s.version}" }
   s.vendored_frameworks = "Elepay_ChinesePayments_Plugin.xcframework"

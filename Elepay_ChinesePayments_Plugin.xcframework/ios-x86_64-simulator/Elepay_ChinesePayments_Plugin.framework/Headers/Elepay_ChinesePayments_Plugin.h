@@ -3,7 +3,7 @@
 //  Elepay-ChinesePayments-Plugin
 //
 //  Created by xuzhe on 2019/10/21.
-//  Copyright © 2019 ELESTYLE, Inc. All rights reserved.
+//  Copyright © ELESTYLE, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
